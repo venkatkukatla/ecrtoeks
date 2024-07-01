@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: webapp
-        image: httpd
+        image: nginxacruytt.azurecr.io/nginxacruytt:5
         # image: 
         ports:
         - containerPort: 80
