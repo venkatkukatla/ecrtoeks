@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: webapp
-        image: httpd
+        image: 448049827839.dkr.ecr.us-east-2.amazonaws.com/nginx:latest
         # image: 
         ports:
         - containerPort: 80
