@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: webapp
-        image: 125827475608.dkr.ecr.us-east-2.amazonaws.com/webapp:latest
+        image: httpd:latest
         ports:
         - containerPort: 80
 ---
